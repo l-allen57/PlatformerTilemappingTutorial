@@ -300,7 +300,9 @@
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/Mover2D.cs"
 "Assets/Scripts/CameraScript.cs"
+"Assets/Scripts/Mover2D.cs"
 "Assets/Scripts/PlayerScript.cs"
 -langversion:9.0
 

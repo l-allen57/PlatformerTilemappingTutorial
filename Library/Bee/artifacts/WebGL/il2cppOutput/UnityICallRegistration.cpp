@@ -82,6 +82,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Animator_ResetTriggerString();
 		Register_UnityEngine_Animator_ResetTriggerString();
 
+		//System.Void UnityEngine.Animator::SetIntegerString(System.String,System.Int32)
+		void Register_UnityEngine_Animator_SetIntegerString();
+		Register_UnityEngine_Animator_SetIntegerString();
+
 		//System.Void UnityEngine.Animator::SetTriggerString(System.String)
 		void Register_UnityEngine_Animator_SetTriggerString();
 		Register_UnityEngine_Animator_SetTriggerString();
@@ -102,15 +106,27 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_isPlaying();
 		Register_UnityEngine_Application_get_isPlaying();
 
-		//System.Void UnityEngine.Application::Quit(System.Int32)
-		void Register_UnityEngine_Application_Quit();
-		Register_UnityEngine_Application_Quit();
-
 		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
 		void Register_UnityEngine_Application_get_platform();
 		Register_UnityEngine_Application_get_platform();
 
 	//End Registrations for type : UnityEngine.Application
+
+	//Start Registrations for type : UnityEngine.AudioSource
+
+		//System.Void UnityEngine.AudioSource::PlayHelper(UnityEngine.AudioSource,System.UInt64)
+		void Register_UnityEngine_AudioSource_PlayHelper();
+		Register_UnityEngine_AudioSource_PlayHelper();
+
+		//System.Void UnityEngine.AudioSource::set_clip(UnityEngine.AudioClip)
+		void Register_UnityEngine_AudioSource_set_clip();
+		Register_UnityEngine_AudioSource_set_clip();
+
+		//System.Void UnityEngine.AudioSource::set_loop(System.Boolean)
+		void Register_UnityEngine_AudioSource_set_loop();
+		Register_UnityEngine_AudioSource_set_loop();
+
+	//End Registrations for type : UnityEngine.AudioSource
 
 	//Start Registrations for type : UnityEngine.Behaviour
 
@@ -1246,6 +1262,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Input_GetKeyInt();
 		Register_UnityEngine_Input_GetKeyInt();
 
+		//System.Boolean UnityEngine.Input::GetKeyUpInt(UnityEngine.KeyCode)
+		void Register_UnityEngine_Input_GetKeyUpInt();
+		Register_UnityEngine_Input_GetKeyUpInt();
+
 		//System.Boolean UnityEngine.Input::GetMouseButton(System.Int32)
 		void Register_UnityEngine_Input_GetMouseButton();
 		Register_UnityEngine_Input_GetMouseButton();
@@ -1740,6 +1760,22 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.ObjectGUIState
 
+	//Start Registrations for type : UnityEngine.Physics
+
+		//System.Void UnityEngine.Physics::get_defaultPhysicsScene_Injected(UnityEngine.PhysicsScene&)
+		void Register_UnityEngine_Physics_get_defaultPhysicsScene_Injected();
+		Register_UnityEngine_Physics_get_defaultPhysicsScene_Injected();
+
+		//System.Void UnityEngine.Physics::set_gravity_Injected(UnityEngine.Vector3&)
+		void Register_UnityEngine_Physics_set_gravity_Injected();
+		Register_UnityEngine_Physics_set_gravity_Injected();
+
+		//UnityEngine.RaycastHit[] UnityEngine.Physics::Internal_RaycastAll_Injected(UnityEngine.PhysicsScene&,UnityEngine.Ray&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+		void Register_UnityEngine_Physics_Internal_RaycastAll_Injected();
+		Register_UnityEngine_Physics_Internal_RaycastAll_Injected();
+
+	//End Registrations for type : UnityEngine.Physics
+
 	//Start Registrations for type : UnityEngine.Physics2D
 
 		//System.Boolean UnityEngine.Physics2D::get_queriesHitTriggers()
@@ -1751,6 +1787,22 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_Physics2D_GetRayIntersectionAll_Internal_Injected();
 
 	//End Registrations for type : UnityEngine.Physics2D
+
+	//Start Registrations for type : UnityEngine.PhysicsScene
+
+		//System.Boolean UnityEngine.PhysicsScene::Internal_RaycastTest_Injected(UnityEngine.PhysicsScene&,UnityEngine.Ray&,System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+		void Register_UnityEngine_PhysicsScene_Internal_RaycastTest_Injected();
+		Register_UnityEngine_PhysicsScene_Internal_RaycastTest_Injected();
+
+		//System.Boolean UnityEngine.PhysicsScene::Internal_Raycast_Injected(UnityEngine.PhysicsScene&,UnityEngine.Ray&,System.Single,UnityEngine.RaycastHit&,System.Int32,UnityEngine.QueryTriggerInteraction)
+		void Register_UnityEngine_PhysicsScene_Internal_Raycast_Injected();
+		Register_UnityEngine_PhysicsScene_Internal_Raycast_Injected();
+
+		//System.Int32 UnityEngine.PhysicsScene::Internal_RaycastNonAlloc_Injected(UnityEngine.PhysicsScene&,UnityEngine.Ray&,UnityEngine.RaycastHit[],System.Single,System.Int32,UnityEngine.QueryTriggerInteraction)
+		void Register_UnityEngine_PhysicsScene_Internal_RaycastNonAlloc_Injected();
+		Register_UnityEngine_PhysicsScene_Internal_RaycastNonAlloc_Injected();
+
+	//End Registrations for type : UnityEngine.PhysicsScene
 
 	//Start Registrations for type : UnityEngine.PhysicsScene2D
 
@@ -2557,6 +2609,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Single UnityEngine.Time::get_realtimeSinceStartup()
 		void Register_UnityEngine_Time_get_realtimeSinceStartup();
 		Register_UnityEngine_Time_get_realtimeSinceStartup();
+
+		//System.Single UnityEngine.Time::get_time()
+		void Register_UnityEngine_Time_get_time();
+		Register_UnityEngine_Time_get_time();
 
 		//System.Single UnityEngine.Time::get_unscaledDeltaTime()
 		void Register_UnityEngine_Time_get_unscaledDeltaTime();

@@ -13,12 +13,15 @@ UnityEngine.AnimationCurve::Internal_Destroy
 UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
 UnityEngine.Animator::get_hasBoundPlayables
 UnityEngine.Animator::ResetTriggerString
+UnityEngine.Animator::SetIntegerString
 UnityEngine.Animator::SetTriggerString
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
-UnityEngine.Application::Quit
 UnityEngine.Application::get_platform
+UnityEngine.AudioSource::PlayHelper
+UnityEngine.AudioSource::set_clip
+UnityEngine.AudioSource::set_loop
 UnityEngine.Behaviour::get_enabled
 UnityEngine.Behaviour::get_isActiveAndEnabled
 UnityEngine.Behaviour::set_enabled
@@ -271,6 +274,7 @@ UnityEngine.Input::CheckDisabled
 UnityEngine.Input::GetButtonDown
 UnityEngine.Input::GetKeyDownInt
 UnityEngine.Input::GetKeyInt
+UnityEngine.Input::GetKeyUpInt
 UnityEngine.Input::GetMouseButton
 UnityEngine.Input::GetMouseButtonDown
 UnityEngine.Input::GetMouseButtonUp
@@ -383,8 +387,14 @@ UnityEngine.Object::ForceLoadFromInstanceID
 UnityEngine.Object::Internal_CloneSingle
 UnityEngine.ObjectGUIState::Internal_Create
 UnityEngine.ObjectGUIState::Internal_Destroy
+UnityEngine.Physics::get_defaultPhysicsScene_Injected
+UnityEngine.Physics::set_gravity_Injected
+UnityEngine.Physics::Internal_RaycastAll_Injected
 UnityEngine.Physics2D::get_queriesHitTriggers
 UnityEngine.Physics2D::GetRayIntersectionAll_Internal_Injected
+UnityEngine.PhysicsScene::Internal_RaycastTest_Injected
+UnityEngine.PhysicsScene::Internal_Raycast_Injected
+UnityEngine.PhysicsScene::Internal_RaycastNonAlloc_Injected
 UnityEngine.PhysicsScene2D::GetRayIntersectionArray_Internal_Injected
 UnityEngine.PhysicsScene2D::RaycastArray_Internal_Injected
 UnityEngine.PhysicsScene2D::RaycastList_Internal_Injected
@@ -554,6 +564,7 @@ UnityEngine.Tilemaps.Tilemap::RefreshTilesNative
 UnityEngine.Tilemaps.TilemapRenderer::OnSpriteAtlasRegistered
 UnityEngine.Time::get_deltaTime
 UnityEngine.Time::get_realtimeSinceStartup
+UnityEngine.Time::get_time
 UnityEngine.Time::get_unscaledDeltaTime
 UnityEngine.Time::get_unscaledTime
 UnityEngine.TouchScreenKeyboard::get_active
